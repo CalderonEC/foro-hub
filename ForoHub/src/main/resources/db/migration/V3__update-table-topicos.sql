@@ -1,0 +1,5 @@
+ALTER TABLE topicos
+MODIFY COLUMN cursoId BIGINT NOT NULL;
+
+ALTER TABLE topicos
+ADD CONSTRAINT fk_topico_curso FOREIGN KEY (cursoId) REFERENCES cursos(id);

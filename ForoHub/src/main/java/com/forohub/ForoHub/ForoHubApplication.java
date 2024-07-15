@@ -10,4 +10,5 @@ public class ForoHubApplication {
 		SpringApplication.run(ForoHubApplication.class, args);
 	}
 
+
 }
